@@ -1,13 +1,16 @@
-
-input[type="text"],
-select {
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+input[type="text"] {
   width: 110%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+  border: 2px solid #bab9b9;
+  border-radius: 7px;
 }
 
 input[type="submit"] {
@@ -38,5 +41,6 @@ div {
   height: 100%;
 }
 h1 {
-  color: rgb(21, 114, 68);
+  color: rgb(0, 117, 59);
 }
+
